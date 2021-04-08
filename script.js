@@ -17,8 +17,7 @@ var taurus = ["Taurus: The Incredible Hulk - You’re slow to burn but when you 
 var gemini = ["Gemini: Deadpool - Are Gemini personalities heroes or anti-heroes? Sometimes it can be hard to tell. They resemble the duality of superheroes like Deadpool. Smart talking, rude, oversexed, you enjoy the rapid fire world and need a hero with a badass name.",
 "Gemini: Iron Man - Gemini is well-represented in Tony, as he showcases the sign's natural curiosity, adaptability, passion, and dynamic nature. Tony is incredibly smart, charismatic, and always has his hand in a thousand things. He thrives on being the center of attention and drawing a crowd."];
 
-var cancer = ["Cancer: Captain America - If you're born under the Crab sign, you probably recognize many of your own traits in Captain America's stubborn determination, inability to express his emotion (see: a million damaged punching bags), and his amazing, unparalleled devotion to those he loves.",
-""];
+var cancer = ["Cancer: Captain America - If you're born under the Crab sign, you probably recognize many of your own traits in Captain America's stubborn determination, inability to express his emotion (see: a million damaged punching bags), and his amazing, unparalleled devotion to those he loves."];
 
 var leo = ["Leo: Thor - Loving, laughing, and larger than life, literally a glowing god, is there any question which character Leos are? The Leo is a leader, a King, one might say, or, perhaps, a god, a glorious mane haloing them like a crown. Thor's booming persona and his endearing personality, make him a true Leo.",
 "Leo: The Flash - Everything about the Flash just matches the Leo personality – from the name, the red suit, the lightening bolt – and the super speed thing too. Your love for all things explosive closely resembles this heroes ability to create a giant electrical storm out of nowhere."];
