@@ -1,0 +1,55 @@
+@font-face {
+  font-family: langdonRegular;
+  src: url(Langdon.otf);
+}
+
+body {
+  height:100%
+  padding: 0px;
+  margin:0px;
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url(1021.png);
+  background-size: cover;
+  /* background-image: url(wall_texture.jpg); */
+
+}
+
+html {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1{
+  font-family: langdonRegular;
+  font-size: 7em;
+  color: black;
+  margin-top:0.5em;
+  margin-bottom: 0.5em;
+  text-shadow: 2px 2px red;
+}
+
+#text1{
+  font-size: 2.5em;
+  font-family: monospace;
+  margin-bottom: 0;
+}
+
+#superhero-input, #superhero-button{
+  font-size: 2em;
+  padding: 0.6em;
+  font-family: monospace;
+}
+
+#superhero-output {
+  font-size: 2vw;
+  margin-top: 0.2em;
+  margin-left: 8em;
+  margin-right: 8em;
+  font-family: monospace;
+}
+
+#superhero-button, #superhero-input {
+  margin-top: 0.3em;
+}
