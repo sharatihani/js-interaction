@@ -4,7 +4,7 @@ var horoscopeChoice;
 var textColor;
 var superheroStyle = document.getElementById('superhero');
 
-var colors = ["#ff0000", "#0089FF", "#EBEB00", "#00000", "#FFAB00"]
+var colors = ["#ff0000", "#0089FF", "#EBEB00", "#00000", "#FFAB00"];
 
 // information is from https://www.woovly.com/blog/marvel-superhero-zodiac-sign/  and https://zodiacfire.com/zodiac-superheroes/
 
@@ -41,11 +41,12 @@ var aquarius = ["Aquarius: Thor - Thors’ Viking heritage and his never ending 
 var pisces = ["Pisces: Bucky Barnes - Bucky Barnes is a deeply emotional character. He's been through a lot, but he still experiences deep empathy for the world and for those he may have hurt against his will. Bucky Barnes is a deeply emotional character. He's been through a lot, but he still experiences deep empathy for the world and for those he may have hurt against his will.",
 "Pisces: CatWoman - The Pisces personality can feel lost and tormented at times. But they can also be menacing too when they sharpen their claws. Which is why they would most likely be the Catwoman if they were a superhero. They have a tendency to like animals even more than humans meaning they’ll feel quite at home saving the world as their feline self."];
 
-var randomSuperhero = Math.floor(Math.random() * 2);
-var randomColor = Math.floor(Math.random() * 5);
 superheroButton.addEventListener("click", superhero);
 
 function superhero(){
+
+var randomSuperhero = Math.floor(Math.random() * superhero.length);
+
 sign = document.getElementById('superhero-input').value;
 if (sign == "aries"){
 horoscopeChoice = aries[randomSuperhero];
@@ -90,6 +91,7 @@ horoscopeChoice="please enter your sign again (no using capital letters)";
 // restyles the output color
 
 function restyle(){
+var randomColor = Math.floor(Math.random() * colors.length);
 textColor = colors[randomColor];
 superheroStyle.style.color = textColor;
 }
